@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<script type="text/javascript" src="formChecker.js">
+ </script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <form onsubmit="let success = validateForm(); if (!success) {event.preventDefault()};" action="customerBackend.php" method="post" class="storeform">
+
+    <label>Username</label>
+    <input type="text" id="username" name="username"/>
+    <br>
+    <label>Password:</label>
+    <input type="password" id="password" name="password"/>
+    <br>
+    <label>Quantity of  $100 shoes:</label>
+    <input type="text" id="shoes" name="shoes"/>
+    <br>
+    <label>Quantity of $25 shirts:</label>
+    <input type="text" id="shirts" name="shirts"/>
+    <br>
+    <label>Quantity of $25 pants:</label>
+    <input type="text" id="pants" name="pants"/>
+    <br>
+
+    <p>Please choose a shipping option</p>
+    <br>
+    <input type="radio" id="7day" name="shipping" value="0">
+    <label for="7day">Free 7 day shipping</label><br>
+    <input type="radio" id="3day" name="shipping" value="5">
+    <label for="3day">$5.00 three day shipping</label><br>
+    <input type="radio" id="overnight" name="shipping" value="50">
+    <label for="overnight">$50.00 overnight shipping</label><br>
+    <br>
+    <input type="reset">
+
+    <input type="submit">
+
+  </form>
+</body>
+</html>

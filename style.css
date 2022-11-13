@@ -1,0 +1,31 @@
+body {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+body
+{
+    background-image: url(1.png); background-size: 100%;
+    background-repeat: no-repeat; background-attachment: fixed;
+}
+.storeform {
+    background-color: #ffffff; 
+    border: 3px solid #ffffff; 
+    padding: 10px; 
+    margin: 10px;
+}
+table, th, td {
+    margin: 0 auto;
+    background-color: #ffffff; 
+    border: 3px solid; 
+    padding: 10px; 
+}
+div {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #ffffff; 
+  padding: 10px;
+}
+
+
