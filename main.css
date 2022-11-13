@@ -1,0 +1,23 @@
+a {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 72px;
+    line-height: 144px;
+}
+a:hover
+{
+    color: mediumvioletred;
+}
+body {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+body
+{
+    background-image: url(1.jpg); background-size: 100%;
+    background-repeat: no-repeat; background-attachment: fixed;
+}
